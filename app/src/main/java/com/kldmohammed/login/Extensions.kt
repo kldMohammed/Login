@@ -24,3 +24,4 @@ fun Activity.toast(msg: String) = Toast.makeText(this, msg, Toast.LENGTH_LONG).s
 
 /** a function to show a snackBar with a simple syntax*/
 fun View.snackBar(msg: String) = Snackbar.make(this, msg, Snackbar.LENGTH_LONG).show()
+
